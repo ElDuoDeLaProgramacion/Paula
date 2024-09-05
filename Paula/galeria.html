@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Interfaz Principal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #ba2317;
+        }
+        header {
+            background-color: #ba2317;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            padding: 2rem;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; 
+        }
+
+        .image-item {
+            display: flex;
+            align-items: center; 
+            gap: 20px; 
+            justify-content: flex-start; 
+            margin-bottom: 20px; 
+        }
+
+        .image-item img {
+            max-width: 450px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .image-item p {
+            margin: 0;
+            max-width: 400px; 
+        }
+
+        footer {
+            background-color: #a117ba;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Me llamo Paula y asi fue mi fiesta</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Galería de Imágenes</h2>
+            <div class="image-gallery">
+                <div class="image-item">
+                    <img src="../Paula/Imagenes/Cumple.png" alt="Imagen 1">
+                    <p>Esa fue la foto que me tomaron cuando iba entrando a mi fiesta de Xv acompañada de mis papás , me gusta la iluminación de la foto y que se ve como el humo que salió de la máquina en la entrada.</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Paula/Imagenes/Fotos.png" alt="Imagen 2">
+                    <p>Después de bailar el vals me cambié de outfit y siguieron las otras fotos ya con ropa más cómoda , ahí estoy posando con mateo el cual tiene otra ropa porque se había caído y ensuciado .</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Paula/Imagenes/Amigos.png" alt="Imagen 3">
+                    <p>Foto con mis amigos cuando pasé por las mesas saludando y agradeciendo por la asistencia y el cariño .</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Paula/Imagenes/Comida.png" alt="Imagen 3">
+                    <p>Ese día comí una deliciosa pizza de destino , es un mix de sabores increíble , súper recomendada y para nada costosa .</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Paula/Imagenes/Snack.png" alt="Imagen 3">
+                    <p>Me encanta el café y todas las bebidas que tengan café , este es un delicioso snack con café , caramelo , helado de vainilla y leche de almendras.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; Muchas gracias, estoy aprendiendo el mundo del desarrollo web.</p>
+    </footer>
+</body>
+</html>
